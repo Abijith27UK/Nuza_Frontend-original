@@ -42,8 +42,8 @@ const Footer = () => {
             <div className="container mx-auto px-4 flex flex-wrap justify-between items-start text-center">
                 {/* Left Section: Company */}
                 <div id="company" className="w-full md:w-1/3 text-left space-y-3">
-                    <h4 className="text-lg font-bold mb-2">Company</h4>
-                    <ul className="space-y-1 text-sm">
+                    {/* <h4 className="text-lg font-bold mb-2">Company</h4> */}
+                    {/* <ul className="space-y-1 text-sm">
                         <li>
                         <Link to="/about" className="hover:underline">About us</Link>
                         </li>
@@ -57,7 +57,7 @@ const Footer = () => {
                                 Terms
                             </a>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
 
                 {/* Center Section: NUZA Branding */}
@@ -83,7 +83,7 @@ const Footer = () => {
                         </div>
                     </div>
                     {/* NUZA Text */}
-                    <div className="text-5xl font-badScript font-bold tracking-wide">NUZA</div>
+                    <div className="text-3xl font-bold tracking-wide">NUZA</div>
                     {/* Address */}
                     <p className="text-sm leading-relaxed">
                         Nuza, Sudha & Shankar Innovation Hub,<br />
@@ -99,7 +99,7 @@ const Footer = () => {
 
                 {/* Right Section: For Business */}
                 <div id="for-business" className="w-full md:w-1/3 text-right space-y-3 ">
-                    <h4 className="text-lg font-bold mb-2">For Business</h4>
+                    {/* <h4 className="text-lg font-bold mb-2">For Business</h4>
                     <ul className="space-y-1 text-sm text">
                         <li>
                             <a href="#" className="hover:underline">
@@ -116,14 +116,14 @@ const Footer = () => {
                                 App for business
                             </a>
                         </li>
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
 
             {/* Social Icons */}
             <div className="flex justify-center space-x-6 text-2xl mt-6">
                 <a
-                    href="https://www.instagram.com"
+                    href="https://www.instagram.com/nuzaapp?igsh=Z3JnN2FpNHh3NGUy"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram"
